@@ -1,0 +1,36 @@
+.button {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background: #ff5c39;
+    float: left;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.button__icon--mode {
+    background: #fff;
+    border: 1px solid #97a9ba;
+}
+
+.button:hover {
+    background: rgba(255, 92, 57, 0.8);
+}
+
+.button__icon--mode:hover {
+    background: #ccc;
+}
+
+.button p {
+    font-size: 20px;
+}
+
+.button__icon {
+    margin-left: 5px;
+}
+
+.button__icon {
+    transform: rotate(135deg);
+}

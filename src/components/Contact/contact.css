@@ -1,0 +1,77 @@
+.contact {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto; /*El contenido marca el contenido de altura*/
+    padding: 60px 10px;
+}
+
+.contact__title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0px auto 70px;
+    /* margin-top: 50px; */
+    text-align: center;
+}
+
+.contact__title h2 {
+    font-size: 30px;
+    color: #ff5c39;
+    margin-bottom: 15px;
+}
+
+.contact__title p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 700px;
+    width: 50%;
+}
+
+.contact__container--input {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.contact__container--input > label {
+    margin-right: 30px;
+}
+
+.contact__container--input > input {
+    width: 100%;
+    padding: 10px 5px;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    height: 40px;
+    margin-left: 10px;
+    /* outline-width: 0; */
+    
+}
+
+.contact__container--input > textarea:focus,    
+.contact__container--input > input:focus {
+    outline: 1px double #ff5c39;
+}
+
+.contact__container--input > textarea {
+    width: 100%;
+    padding: 10px 5px;
+    height: 150px;
+    resize: none;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+}
+
+.contact__container--buttons {
+    padding: 0 120px;
+}
+
+.contact__container--buttons > div {
+    margin-right: 20px;
+}

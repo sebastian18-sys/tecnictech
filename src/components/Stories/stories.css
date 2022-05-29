@@ -1,0 +1,47 @@
+.stories__title {
+    margin-left: 50px;
+}
+
+.stories__title > h2 {
+    margin-bottom: 10px
+}
+
+.stories__container {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.stories__card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 350px;
+    height: 200px;
+    display: flex;
+    /* min-height: 150px; */
+    margin: 30px auto;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    /* flex: 1; */
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.stories__info {
+    display: flex;
+    margin: 15px 10px 0 0;
+}
+
+.stories__info > svg {
+    color: #ff5c39;
+    margin-right: 10px;
+}
+
+.stories__info > p {
+    font-size: 17px;
+    font-weight: 600;
+    /* margin-bottom: 10px; */
+    /* letter-spacing: 5px; */
+}

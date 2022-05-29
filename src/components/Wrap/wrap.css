@@ -1,0 +1,36 @@
+.wrap {
+    display: flex;
+    margin: 0 auto;
+    min-width: 500px;
+    max-width: 900px;
+    gap: 40px;
+}
+
+.wrap__mision, .wrap__vision {
+    display: flex;
+    width: 90%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-bottom: 60px;
+    /* font-size: 20px; */
+    /* flex-wrap: wrap; */
+    
+}
+
+.wrap__mision > svg, .wrap__vision > svg {
+    color: #ff5c39;
+    font-size: 60px;
+    /* text-align: center; */
+    margin-right: 20px;
+    /* flex: 1; */
+}
+
+.wrap__mision > div > h2, .wrap__vision > div > h2 {
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+.wrap__mision > div > p, .wrap__vision > div > p {
+    font-size: 18px;
+    line-height: 40px;
+}
