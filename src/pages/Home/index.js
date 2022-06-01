@@ -37,7 +37,8 @@ import Wrap from '../../components/Wrap'
         ]
 
         // https://i.ibb.co/Fh3yst3/imgHero2.jpg
-
+        // https://i.ibb.co/rwnrvLc/imgHero1.jpg
+        
         return (
             <>
                 <header>
@@ -52,9 +53,9 @@ import Wrap from '../../components/Wrap'
                         <Wrap />
                     </section>
                     
-                    <ImageSection img={"https://i.ibb.co/rwnrvLc/imgHero1.jpg"} />
-                    <Content title={information[1].title} titleLight={information[1].titleLight} info={information[1].info} button />
                     <ImageSection img={"https://i.ibb.co/ysK1bHw/imgHero4.jpg"} />
+                    <Content title={information[1].title} titleLight={information[1].titleLight} info={information[1].info} button />
+                    <ImageSection img={"https://i.ibb.co/pZ6ChFc/imgHero7.jpg"} />
                     <Features />
                     <ImageSection img={"https://i.ibb.co/VCdBy5c/imgHero3.jpg"} />
                     <Contact />
